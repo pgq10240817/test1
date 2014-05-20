@@ -35,9 +35,14 @@ import com.handmark.pulltorefresh.library.PullToRefreshListView;
  * @author Chris Banes
  * 
  */
-public class PullToRefreshListFragment extends PullToRefreshBaseListFragment<PullToRefreshListView> {
+public class PullToRefreshListFragment extends
+		PullToRefreshBaseListFragment<PullToRefreshListView> {
+	private void method1() {
 
-	protected PullToRefreshListView onCreatePullToRefreshListView(LayoutInflater inflater, Bundle savedInstanceState) {
+	}
+
+	protected PullToRefreshListView onCreatePullToRefreshListView(
+			LayoutInflater inflater, Bundle savedInstanceState) {
 		return new PullToRefreshListView(getActivity());
 	}
 
