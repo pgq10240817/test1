@@ -37,7 +37,7 @@ import com.handmark.pulltorefresh.library.PullToRefreshListView;
  */
 public class PullToRefreshListFragment extends
 		PullToRefreshBaseListFragment<PullToRefreshListView> {
-	private void method1() {
+	private void method22222222() {
 
 	}
 
